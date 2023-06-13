@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(246, 246, 246, 1);
+}
+@font-face {
+    font-family: 'Clash Display';
+    src: url(ClashDisplay-Variable.ttf);
+}
+@font-face {
+    font-family: 'Satoshi';
+    src: url(Satoshi-Variable.ttf);
+}
+.title {
+    font-family: 'Clash Display';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 39px;
+    color: rgba(42, 37, 75, 1);
+}
+.subtitle {
+    font-family: 'Satoshi';
+    font-size:24px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(80, 89, 119, 1);
+}
+
+@media only screen and (max-width: 768px) {
+    .bob {
+        display: none;
+    }
+    body {
+        background-color: white !important;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .box {
+        display: none;
+    }
+}
+.box {
+    padding-top: 47px;
+}
+.collection {
+    height: 56px;
+    width: 170px;
+    background-color: white;
+    font-family: 'Satoshi';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(42, 37, 75, 1);
+    border: none;
+    margin-top: 36px;
+}
+.collection2 {
+    height: 56px;
+    width: 337px;
+    font-family: 'Satoshi';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(42, 37, 75, 1);
+    border: none;
+    background-color: rgba(249, 249, 249, 1);
+    margin-top: 36px;
+    margin-bottom: 35px;
+
+}
